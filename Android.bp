@@ -387,6 +387,7 @@ cc_library_shared {
 cc_library {
     name: "lib_android_keymaster_keymint_utils",
     vendor_available: true,
+    recovery_available: true,
     srcs: [
         "ng/KeyMintUtils.cpp",
     ],
